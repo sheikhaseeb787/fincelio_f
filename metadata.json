@@ -1,0 +1,6 @@
+{
+  "name": "Fincelio - Financial Calculators",
+  "description": "Your Numbers. Your Financial Clarity. Modern, accurate, and instant business, ecommerce, and financial calculators with unit economics analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

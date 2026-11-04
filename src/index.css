@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-brand-primary: #21965A;
+  --color-brand-hover: #1A7A48;
+  --color-brand-light: #E5F5EB;
+  --color-brand-card: #F4F8F5;
+  --color-brand-border: #E3EBE5;
+  --color-brand-text: #17231C;
+}
+
+:root {
+  --fincelio-green: #21965A;
+  --fincelio-light-green: #E5F5EB;
+  --fincelio-card: #F4F8F5;
+  --fincelio-border: #E3EBE5;
+  --fincelio-text: #17231C;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  color: #17231C;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbar for tables & cards */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D3DFD7;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #21965A;
+}
+
+@media print {
+  header, footer, .no-print {
+    display: none !important;
+  }
+  body {
+    background: #FFF !important;
+    color: #000 !important;
+  }
+}
